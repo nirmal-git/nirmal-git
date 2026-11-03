@@ -20,6 +20,8 @@ I've spent 15+ years building business, enterprise, government and e-commerce so
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
@@ -27,6 +29,14 @@ I've spent 15+ years building business, enterprise, government and e-commerce so
 - **[DAPPR](https://dapprindia.com)**: e-commerce store with a Laravel backend and React admin, covering catalog, checkout, GST invoices, SabPaisa online payments and COD, guest OTP checkout, and Shiprocket shipping, tracking and WhatsApp updates
 
 ### Selected projects
+
+**🏨 Hotel Property Management System**
+Multi-tenant hotel PMS covering reservations, front desk, folio, GST billing, housekeeping, restaurant POS, banquet, inventory, rates and channel distribution. It has an immutable double-entry folio ledger in integer paise with oversell-safe transactional availability, GST tax invoices, credit notes, IRN, GSTR-1 export, and Razorpay payments, webhooks and refunds. Role-based access for 7 hotel roles with Sanctum and MFA, a direct-booking site and a Flutter owner/staff app with offline housekeeping. Tested with Pest (including cross-tenant isolation), Pint and Larastan, and runs on Docker.
+`Laravel 11` `React 18` `TypeScript` `Flutter` `MySQL` `Redis`
+
+**🚕 OnrootRide: Multi-Modal Mobility Platform**
+Flutter customer and driver apps, a React admin and a Laravel REST API. Cab booking with Google Maps, fare estimates, nearby-driver matching, live trips, in-ride chat and push notifications; intercity bus search, seat selection, QR tickets, live bus tracking, local bus booking and train tracking. Fleet-owner module with commission ledger and referrals, wallet and SabPaisa payments, and Firebase Auth, Realtime Database and Cloud Messaging. The admin covers driver approval, routes, schedules, zones, fare rules and revenue reports.
+`Flutter` `Laravel 13` `React` `Firebase`
 
 **🏢 Enterprise Multi-Branch Attendance & Payroll System**
 Designed for 10,000+ employees across 100+ branches. It covers shifts, leave, tours, overtime, GPS geofencing and payroll driven by master data (PF, ESIC, Professional Tax, TDS, bonus, gratuity, arrears and custom salary formulas). It includes a Flutter kiosk app with offline face recognition, encrypted local data and sync.
