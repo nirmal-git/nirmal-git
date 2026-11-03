@@ -27,11 +27,36 @@ I've spent 15+ years building business, enterprise, government and e-commerce so
 - **[DAPPR](https://dapprindia.com)**: e-commerce store with a Laravel backend and React admin, covering catalog, checkout, GST invoices, SabPaisa online payments and COD, guest OTP checkout, and Shiprocket shipping, tracking and WhatsApp updates
 
 ### Selected projects
-- Enterprise multi-branch attendance and payroll system (Laravel, React, Flutter kiosk with offline face recognition)
-- District letter management and file tracking system with immutable audit trails
-- Government training and campaign management with GPS-tagged evidence and billing workflows
-- PropPortal, a multi-tenant real estate marketplace
-- An Indian ERP and POS platform with GST
+
+**🏢 Enterprise Multi-Branch Attendance & Payroll System**
+Designed for 10,000+ employees across 100+ branches. It covers shifts, leave, tours, overtime, GPS geofencing and payroll driven by master data (PF, ESIC, Professional Tax, TDS, bonus, gratuity, arrears and custom salary formulas). It includes a Flutter kiosk app with offline face recognition, encrypted local data and sync.
+`Laravel` `MySQL` `React` `Flutter`
+
+**📱 MNS Attendance: Staff Mobile App**
+A Flutter app that works with an existing Laravel API. It handles face-based attendance with geofencing, background GPS tracking for field staff between punch-in and punch-out, route history and distance, offline queues and sync, plus student attendance, marks entry and leave.
+`Flutter` `Riverpod` `Dio` `REST API`
+
+**📂 District Letter Management & File Tracking System**
+Tracks every incoming government letter from start to finish: registration, scanning, Google Drive storage, forwarding, mandatory acceptance, return, reassignment, closure and reopening. Every movement is recorded in a history that can't be edited, with SLA and overdue tracking, delegation, confidentiality controls, reminders and role-based dashboards.
+`Laravel` `MySQL` `Google Drive API` `RBAC`
+
+**🎓 Government Training & Campaign Management System**
+Workflows for district, block and sangha level users, with permissions that can be set for each page and action. It covers training schedules and trainer assignment, camera-only photo evidence with GPS and time stamps, offline upload, bill and purchase-order handling, approvals, payment tracking, audit logs and MIS reports.
+`Laravel` `React` `Flutter`
+
+**🏠 PropPortal: Multi-Tenant Real Estate Marketplace**
+A real estate marketplace that many dealers and organisations can use from one platform. It has listing workflows, role-based access, dealer tools and public property search.
+`Laravel` `MySQL` `Multi-tenant SaaS`
+
+**🧾 Indian ERP & POS Platform**
+Inventory, sales, purchases and stock, with product variants and images, HSN codes and GST workflows. It has a React admin panel and a Flutter POS app.
+`Laravel` `MySQL` `React/Vite` `Flutter`
+
+**🎥 Video Meeting Application**
+Architecture for a Zoom-style meeting platform, covering the meeting lifecycle, participants, sessions, access control and how it connects to other services.
+
+**💪 SlimZAI: AI Fitness App**
+Product concept, mobile UX, branding direction and app architecture for an AI-assisted fitness coaching app.
 
 ### Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nirmal-biswas-4527472a/)
